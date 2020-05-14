@@ -11,7 +11,7 @@ const msg = 'Hello'
 ## Jest
 
 ```
-// <-- minor DX improvement here...I didn't have to import anything
+// <-- FYI...I didn't have to import anything
 test('Hello', () => {  // <-- I can just write my tests asap
   const msg = 'hello'
   expect(msg).toBe('hello')
@@ -25,7 +25,7 @@ test('Hello', () => {  // <-- I can just write my tests asap
 ## Ava
 
 ```
-import test from 'ava'  // <-- Minor foul: I had to write an extra line here
+import test from 'ava'  // <-- FYI: I had to write an extra line here, but this can be ok, because sometimes I want test.serial
 
 test('hello', (t) => { // <-- I wanted this to be my first line...
   const msg = 'hello'

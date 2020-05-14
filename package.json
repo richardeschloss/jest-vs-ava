@@ -1,9 +1,10 @@
 {
   "scripts": {
     "test:ava": "ava",
-    "test:jest": "jest ./jest.test.js"
+    "test:jest": "jest  ./jest.test.js"
   },
   "devDependencies": {
-    "ava": "^3.8.2"
+    "ava": "^3.8.2",
+    "jest": "^26.0.1"
   }
 }

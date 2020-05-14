@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test:ava": "ava",
+    "test:jest": "jest ./jest.test.js"
+  },
+  "devDependencies": {
+    "ava": "^3.8.2"
+  }
+}

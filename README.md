@@ -20,7 +20,7 @@ test('Hello', () => {  // <-- I can just write my tests asap
 
 > npm run test:jest
 
-Time: 
+![Jest Perf](results/jest_perf.png)
 
 ## Ava
 
@@ -33,7 +33,9 @@ test('hello', (t) => { // <-- I wanted this to be my first line...
 })
 ```
 
-Time:
+> npm run test:ava
+
+![Ava Perf](results/ava_perf.png)
 
 
 ###
